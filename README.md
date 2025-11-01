@@ -32,12 +32,32 @@ README.md
 - Frontend: React + Vite + TypeScript
 - Dev tooling: nodemon for backend hot reload, Vite dev server for frontend
 
+## Getting Started
+
+First, clone the repository and install its dependencies:
+
+```bash
+# Clone the repository
+git clone https://github.com/yash-bhargava20/Event-finder.git
+cd Event-finder
+
+# Install backend dependencies
+cd backend
+npm install
+cd ..
+
+# Install frontend dependencies
+cd frontend
+npm install
+cd ..
+```
+
 ## Prerequisites
 
 - Node.js (v16/18+ recommended)
 - npm
 - MongoDB (Atlas or local)
-- Git (optional)
+- Git
 
 ## Environment variables
 
@@ -150,7 +170,41 @@ curl http://localhost:5000/api/events
 
 If a request returns 404 or you get CORS errors, double-check you're targeting the backend port and path (e.g. `http://localhost:5000/api/events`) or set up the frontend proxy shown above.
 
-## Screenshots & Video
+## Demo & Screenshots
+
+Watch a quick demo of the application in action:
+
+https://github.com/yash-bhargava20/Event-finder/assets/demo/event-finder-demo.mp4
+
+### Features shown in the demo:
+
+1. Starting the backend server
+2. Starting the frontend development server
+3. Creating a new event
+4. Viewing the event list
+5. Viewing event details
+6. Deleting an event
+
+### Screenshots
+
+### Homepage
+
+![Homepage Screenshot](./docs/screenshots/home.png)
+
+### Create Event Form
+
+![Create Event Form](./docs/screenshots/form.png)
+
+### Event Details
+
+![Event Details](./docs/screenshots/detail.png)
+
+To record your own demo:
+
+1. Start both servers (backend on port 5000, frontend on port 5173)
+2. Use Win+G (Windows) or Cmd+Shift+5 (macOS) to start screen recording
+3. Demonstrate the key features above
+4. Save the recording in `docs/video/demo.mp4`
 
 ## Which AI tools were used (and how)
 
