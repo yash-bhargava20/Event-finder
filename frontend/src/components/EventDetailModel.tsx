@@ -10,7 +10,7 @@ interface Props {
 const EventDetailsModal: React.FC<Props> = ({ event, onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/30 bg-opacity-50 z-50">
-      <div className="bg-white w-full max-w-lg rounded-lg shadow-xl p-6 relative overflow-y-auto max-h-[90vh]">
+      <div className="bg-white w-full md:max-w-4xl max-w-lg rounded-lg shadow-xl p-6 relative overflow-y-auto max-h-[90vh]">
         <button
           onClick={onClose}
           className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 cursor-pointer font-bold text-xl"
@@ -57,7 +57,6 @@ const EventDetailsModal: React.FC<Props> = ({ event, onClose }) => {
           </div>
         </div>
 
-        {/* 🌍 Map Section */}
         <div className="mb-6">
           <h3 className="text-lg font-semibold text-gray-800 mb-3">
             Location on Map
