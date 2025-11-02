@@ -174,7 +174,7 @@ If a request returns 404 or you get CORS errors, double-check you're targeting t
 
 Watch a quick demo of the application in action:
 
-https://github.com/yash-bhargava20/Event-finder/assets/demo/event-finder-demo.mp4
+https://github.com/yash-bhargava20/Event-finder/docs/video/demo.mp4
 
 ### Features shown in the demo:
 
@@ -198,13 +198,6 @@ https://github.com/yash-bhargava20/Event-finder/assets/demo/event-finder-demo.mp
 ### Event Details
 
 ![Event Details](./docs/screenshots/detail.png)
-
-To record your own demo:
-
-1. Start both servers (backend on port 5000, frontend on port 5173)
-2. Use Win+G (Windows) or Cmd+Shift+5 (macOS) to start screen recording
-3. Demonstrate the key features above
-4. Save the recording in `docs/video/demo.mp4`
 
 ## Which AI tools were used (and how)
 
